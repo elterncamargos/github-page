@@ -10,8 +10,11 @@ html{
 
 body{
   font-family:Arial, sans-serif;
+
   background:#0d1117;
+
   color:#f5f5f5;
+
   line-height:1.8;
 }
 
@@ -19,10 +22,15 @@ body{
 
 .hero{
   min-height:100vh;
+
   padding:60px 8%;
+
   display:flex;
+
   justify-content:space-between;
+
   align-items:center;
+
   gap:40px;
 
   background:
@@ -34,21 +42,40 @@ body{
   );
 }
 
+/* TEXTO HERO */
+
 .hero-text h1{
-  font-size:55px;
+
+  font-family:'Black Ops One', system-ui;
+
+  font-size:58px;
+
   margin-bottom:15px;
+
   text-transform:uppercase;
-  letter-spacing:2px;
+
+  letter-spacing:3px;
+
+  color:white;
+
+  text-shadow:
+    0 0 10px rgba(37,99,235,0.8),
+    0 0 25px rgba(37,99,235,0.4);
 }
 
 .hero-text p{
   font-size:22px;
+
   color:#9ca3af;
+
   margin-bottom:25px;
 }
 
+/* FOTO */
+
 .hero img{
   width:300px;
+
   border-radius:20px;
 
   border:3px solid #2563eb;
@@ -61,12 +88,15 @@ body{
 
 .btn{
   display:inline-block;
+
   padding:14px 28px;
 
   background:#2563eb;
+
   color:white;
 
   text-decoration:none;
+
   border-radius:10px;
 
   font-weight:bold;
@@ -76,6 +106,7 @@ body{
 
 .btn:hover{
   background:#1d4ed8;
+
   transform:scale(1.05);
 }
 
@@ -83,6 +114,7 @@ body{
 
 section{
   width:85%;
+
   margin:40px auto;
 
   padding:35px;
@@ -101,6 +133,7 @@ h2{
   color:#60a5fa;
 
   text-transform:uppercase;
+
   letter-spacing:2px;
 }
 
@@ -129,6 +162,7 @@ ul{
 }
 
 .card:hover{
+
   transform:translateY(-5px);
 
   box-shadow:
@@ -139,7 +173,9 @@ ul{
 
 .skills{
   display:flex;
+
   flex-wrap:wrap;
+
   gap:15px;
 }
 
@@ -161,7 +197,7 @@ ul{
   background:#1d4ed8;
 }
 
-/* LINKEDIN */
+/* BOTÃO LINKEDIN */
 
 .linkedin-btn{
   display:inline-block;
@@ -209,11 +245,12 @@ footer{
 
   .hero{
     flex-direction:column;
+
     text-align:center;
   }
 
   .hero-text h1{
-    font-size:38px;
+    font-size:40px;
   }
 
   .hero-text p{
