@@ -197,6 +197,42 @@ ul{
   background:#1d4ed8;
 }
 
+/* CURRÍCULO */
+
+.curriculo-imagens{
+  display:flex;
+
+  flex-direction:column;
+
+  align-items:center;
+
+  gap:25px;
+
+  margin-top:25px;
+}
+
+.curriculo-imagens img{
+  width:100%;
+
+  max-width:850px;
+
+  border-radius:15px;
+
+  border:3px solid #2563eb;
+
+  box-shadow:
+  0 0 25px rgba(37,99,235,0.35);
+
+  transition:0.3s;
+}
+
+.curriculo-imagens img:hover{
+  transform:scale(1.02);
+
+  box-shadow:
+  0 0 35px rgba(37,99,235,0.55);
+}
+
 /* BOTÃO LINKEDIN */
 
 .linkedin-btn{
@@ -263,6 +299,10 @@ footer{
 
   section{
     width:92%;
+  }
+
+  .curriculo-imagens img{
+    width:100%;
   }
 
 }
